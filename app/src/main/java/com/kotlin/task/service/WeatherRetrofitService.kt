@@ -17,7 +17,7 @@ interface WeatherRetrofitService {
     ) : Response<WeatherData>
 
     companion object {
-        var retrofitService: WeatherRetrofitService? = null
+        private var retrofitService: WeatherRetrofitService? = null
 
         fun getInstance() : WeatherRetrofitService {
             if (retrofitService == null) {

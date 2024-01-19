@@ -10,9 +10,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
-import androidx.annotation.Nullable
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.NavUtils
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
@@ -29,8 +27,9 @@ import com.kotlin.task.viewmodel.MainViewModel
 
 class DetailScreen : AppCompatActivity() {
     lateinit var binding: ActivityDetailScreenBinding
-    lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: MainViewModel
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailScreenBinding.inflate(layoutInflater)
@@ -73,7 +72,7 @@ class DetailScreen : AppCompatActivity() {
                     .load("https://openweathermap.org/img/w/" + it.weather[0].icon + ".png")
                     .listener(object : RequestListener<Drawable?> {
                         override fun onLoadFailed(
-                            @Nullable e: GlideException?,
+                            e: GlideException?,
                             model: Any?,
                             target: Target<Drawable?>?,
                             isFirstResource: Boolean
@@ -128,9 +127,5 @@ class DetailScreen : AppCompatActivity() {
             @Suppress("DEPRECATION")
             return networkInfo.isConnected
         }
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
     }
 }

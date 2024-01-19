@@ -1,14 +1,14 @@
 package com.kotlin.task.model
 
 data class WeatherData(
-    val coord: Coord,
+    val coordination: Coordination,
     val weather: List<Weather>,
     val main: Main,
     val wind: Wind,
     val sys: Sys
 )
 
-data class Coord(
+data class Coordination(
     val lon: Double,
     val lat: Double
 )

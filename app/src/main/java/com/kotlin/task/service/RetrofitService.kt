@@ -12,7 +12,7 @@ interface RetrofitService {
     suspend fun getAllData() : Response<ProfileData>
 
     companion object {
-        var retrofitService: RetrofitService? = null
+        private var retrofitService: RetrofitService? = null
 
         fun getInstance() : RetrofitService {
             if (retrofitService == null) {

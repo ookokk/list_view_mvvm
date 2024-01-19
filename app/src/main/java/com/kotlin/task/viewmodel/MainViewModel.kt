@@ -8,17 +8,16 @@ import androidx.lifecycle.viewModelScope
 import com.kotlin.task.database.ProfileDatabase
 import com.kotlin.task.database.entity.ProfileList
 import com.kotlin.task.database.repository.ProfileRepository
-import com.kotlin.task.model.ProfileData
 import com.kotlin.task.model.WeatherData
 import com.kotlin.task.repository.MainRepository
 import com.kotlin.task.utils.Constants
 import kotlinx.coroutines.*
 
-class MainViewModel(private val mainRepository: MainRepository, private val application: Application) : ViewModel() {
+class MainViewModel(private val mainRepository: MainRepository, application: Application) : ViewModel() {
 
     val errorMessage = MutableLiveData<String>()
     val getWeatherDetails = MutableLiveData<WeatherData>()
-    var job: Job? = null
+    private var job: Job? = null
     private val exceptionHandler = CoroutineExceptionHandler { _, throwable ->
         onError("Exception handled: ${throwable.localizedMessage}")
     }
@@ -26,7 +25,7 @@ class MainViewModel(private val mainRepository: MainRepository, private val appl
 
     //database
     var allProfileList : LiveData<List<ProfileList>>
-    val repository : ProfileRepository
+    private val repository : ProfileRepository
 
     init {
         val dao = ProfileDatabase.getInstance(application).profileDao()
@@ -35,7 +34,7 @@ class MainViewModel(private val mainRepository: MainRepository, private val appl
     }
 
     fun getAllData() {
-        val profiledata: ArrayList<ProfileList> = ArrayList()
+        val profileData: ArrayList<ProfileList> = ArrayList()
 
         job = CoroutineScope(Dispatchers.IO + exceptionHandler).launch {
             loading.postValue(true)
@@ -43,7 +42,7 @@ class MainViewModel(private val mainRepository: MainRepository, private val appl
             withContext(Dispatchers.Main) {
                 if (response.isSuccessful) {
                     for (i in 0 until response.body()!!.results.size) {
-                        profiledata.add(
+                        profileData.add(
                             ProfileList(
                                 name = response.body()!!.results[i].name.title + " " +response.body()!!.results[i].name.first + " " + response.body()!!.results[i].name.last,
                                 email = response.body()!!.results[i].email,
@@ -58,7 +57,7 @@ class MainViewModel(private val mainRepository: MainRepository, private val appl
                             )
                         )
                     }
-                    addProfileList(profiledata)
+                    addProfileList(profileData)
                     loading.value = false
                 } else {
                     onError("Error : ${response.message()}")
@@ -81,7 +80,7 @@ class MainViewModel(private val mainRepository: MainRepository, private val appl
         }
     }
 
-    fun addProfileList(profileList: List<ProfileList>) = viewModelScope.launch(Dispatchers.IO) {
+    private fun addProfileList(profileList: List<ProfileList>) = viewModelScope.launch(Dispatchers.IO) {
         repository.insert(profileList)
     }
 
