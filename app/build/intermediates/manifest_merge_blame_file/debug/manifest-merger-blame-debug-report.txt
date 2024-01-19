@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kotlin.task"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:9:22-76
+15
+16    <application
+16-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:11:5-38:19
+17        android:allowBackup="true"
+17-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\PC\.gradle\caches\transforms-3\af911082a2ef4621dbf099549f214f27\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:dataExtractionRules="@xml/data_extraction_rules"
+19-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:13:9-65
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:14:9-54
+23        android:hardwareAccelerated="true"
+23-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:15:9-43
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:16:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:17:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:18:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:19:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Task" >
+29-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:20:9-42
+30        <activity
+30-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:22:9-31:20
+31            android:name="com.kotlin.task.SplashActivity"
+31-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:23:13-43
+32            android:exported="true"
+32-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:24:13-36
+33            android:theme="@style/Theme.Transparent" >
+33-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:25:13-53
+34            <intent-filter>
+34-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:26:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:27:17-69
+35-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:27:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:29:17-77
+37-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:32:9-34:38
+41            android:name="com.kotlin.task.view.ProfileListActivity"
+41-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:33:13-53
+42            android:exported="true" />
+42-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:34:13-36
+43        <activity
+43-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:35:9-37:40
+44            android:name="com.kotlin.task.view.DetailScreen"
+44-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:36:13-46
+45            android:exported="false" />
+45-->C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:37:13-37
+46
+47        <service
+47-->[androidx.room:room-runtime:2.2.3] C:\Users\PC\.gradle\caches\transforms-3\eea8b2c1d46fbf1342de9a46ecd75dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+48            android:name="androidx.room.MultiInstanceInvalidationService"
+48-->[androidx.room:room-runtime:2.2.3] C:\Users\PC\.gradle\caches\transforms-3\eea8b2c1d46fbf1342de9a46ecd75dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+49            android:exported="false" />
+49-->[androidx.room:room-runtime:2.2.3] C:\Users\PC\.gradle\caches\transforms-3\eea8b2c1d46fbf1342de9a46ecd75dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+50
+51        <activity
+51-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\faad84c5af8ac97f3c8b358da501a008\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+52            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+52-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\faad84c5af8ac97f3c8b358da501a008\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\faad84c5af8ac97f3c8b358da501a008\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\PC\.gradle\caches\transforms-3\faad84c5af8ac97f3c8b358da501a008\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+55
+56        <meta-data
+56-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC\.gradle\caches\transforms-3\98e0fda11cda6c6ea18b1351943ce2b9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+57            android:name="com.google.android.gms.version"
+57-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC\.gradle\caches\transforms-3\98e0fda11cda6c6ea18b1351943ce2b9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+58            android:value="@integer/google_play_services_version" />
+58-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\PC\.gradle\caches\transforms-3\98e0fda11cda6c6ea18b1351943ce2b9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+59
+60        <provider
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+61            android:name="androidx.startup.InitializationProvider"
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+62            android:authorities="com.kotlin.task.androidx-startup"
+62-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+63            android:exported="false" >
+63-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+64            <meta-data
+64-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+66                android:value="androidx.startup" />
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\f34291d86b8371f2cf5f5d5377ee4600\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+67            <meta-data
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PC\.gradle\caches\transforms-3\ec30ad65a8dcc4cf8626316698c5f0aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PC\.gradle\caches\transforms-3\ec30ad65a8dcc4cf8626316698c5f0aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+69                android:value="androidx.startup" />
+69-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\PC\.gradle\caches\transforms-3\ec30ad65a8dcc4cf8626316698c5f0aa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+70        </provider>
+71    </application>
+72
+73</manifest>

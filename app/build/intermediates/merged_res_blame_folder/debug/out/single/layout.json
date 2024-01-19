@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.kotlin.task.app-mergeDebugResources-29:/layout/activity_splash.xml",
+        "source": "com.kotlin.task.app-main-32:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.kotlin.task.app-mergeDebugResources-29:/layout/profile_list_item.xml",
+        "source": "com.kotlin.task.app-main-32:/layout/profile_list_item.xml"
+    },
+    {
+        "merged": "com.kotlin.task.app-mergeDebugResources-29:/layout/activity_detail_screen.xml",
+        "source": "com.kotlin.task.app-main-32:/layout/activity_detail_screen.xml"
+    },
+    {
+        "merged": "com.kotlin.task.app-mergeDebugResources-29:/layout/activity_profile_list.xml",
+        "source": "com.kotlin.task.app-main-32:/layout/activity_profile_list.xml"
+    }
+]
