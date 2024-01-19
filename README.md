@@ -1,1 +1,2 @@
-# Profile-List-Using-MVVM-Pattern-in-Kotlin
+    # Profile List View 
+    # Basic implementation of MVVM on Kotlin
