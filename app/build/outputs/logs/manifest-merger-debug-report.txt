@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\PC\.gradle\caches\transforms-3\96069d4c6449b24fd7baf267e43c6b88\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\PC\.gradle\caches\transforms-3\0ef10fab069513cae7833214b1024e9c\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\PC\.gradle\caches\transforms-3\63d0f5f4dcdb9164faddc212bb5267ed\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
@@ -61,43 +61,43 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\PC\.gradle\cache
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\136cae378ef600b84bd8a313a086cd3a\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\c110d1c16aeb154098d4cbbb8d9e8761\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PC\.gradle\caches\transforms-3\72cbdc8dfa68b5250c8735a5f9104600\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:4:5-30
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:1-40:12
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:11:5-38:19
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:11:5-38:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\PC\.gradle\caches\transforms-3\63d0f5f4dcdb9164faddc212bb5267ed\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\PC\.gradle\caches\transforms-3\63d0f5f4dcdb9164faddc212bb5267ed\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\PC\.gradle\caches\transforms-3\ad16c267936bdcb109233b241f9458e9\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -135,59 +135,59 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\PC\.gradle\caches\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\PC\.gradle\caches\transforms-3\af911082a2ef4621dbf099549f214f27\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:17:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:15:9-43
 	android:fullBackupContent
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:14:9-54
 	android:roundIcon
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:18:9-54
 	tools:targetApi
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:21:9-29
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:21:9-29
 	android:icon
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:20:9-42
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:20:9-42
 	android:dataExtractionRules
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:13:9-65
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:13:9-65
 activity#com.kotlin.task.SplashActivity
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:22:9-31:20
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:22:9-31:20
 	android:exported
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:24:13-36
 	android:theme
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:25:13-53
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:25:13-53
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:23:13-43
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:23:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.kotlin.task.view.ProfileListActivity
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:32:9-34:38
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:32:9-34:38
 	android:exported
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:33:13-53
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:33:13-53
 activity#com.kotlin.task.view.DetailScreen
-ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:35:9-37:40
+ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml:36:13-46
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml:36:13-46
 uses-sdk
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\PC\.gradle\caches\transforms-3\96069d4c6449b24fd7baf267e43c6b88\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\PC\.gradle\caches\transforms-3\96069d4c6449b24fd7baf267e43c6b88\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\PC\.gradle\caches\transforms-3\0ef10fab069513cae7833214b1024e9c\transformed\jetified-core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
@@ -302,16 +302,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\PC\.gradle\caches\transforms-3
 MERGED from [androidx.print:print:1.0.0] C:\Users\PC\.gradle\caches\transforms-3\c110d1c16aeb154098d4cbbb8d9e8761\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PC\.gradle\caches\transforms-3\72cbdc8dfa68b5250c8735a5f9104600\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\PC\.gradle\caches\transforms-3\72cbdc8dfa68b5250c8735a5f9104600\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\PC\Desktop\Profile-List-Using-MVVM-Pattern-in-Kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PC\Desktop\current_projects\list_view_mvvm\app\src\main\AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.2.3] C:\Users\PC\.gradle\caches\transforms-3\eea8b2c1d46fbf1342de9a46ecd75dc7\transformed\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
 	android:exported
